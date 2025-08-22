@@ -4,6 +4,30 @@ A full-featured **task management API** built with **Next.js**, featuring **user
 
 ---
 
+## Installation
+
+### Clone the repo
+```bash
+git clone https://github.com/iamshihab2020/task-manager-app.git
+```
+
+### Install Packages
+```bash
+npm install
+```
+
+### create a .env.local and add those
+```bash
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+```
+
+### Run the project
+```bash
+npm run dev
+```
+
+
 ## ✨ Time taken 
 - Approximately **7.5** hours.  
 
