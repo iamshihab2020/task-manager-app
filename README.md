@@ -1,4 +1,4 @@
-# 📝 Task Manager API
+# 📝 Task Manager APP
 
 A full-featured **task management API** built with **Next.js**, featuring **user authentication** and **CRUD operations** for tasks.
 
