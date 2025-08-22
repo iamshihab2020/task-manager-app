@@ -88,7 +88,7 @@ export default function LoginPage() {
           >
             <CheckCircle className="h-12 w-12 text-blue-600" />
             <span className="ml-2 text-2xl font-bold text-gray-900">
-              TaskManager
+              <span className="text-[#155DFC]">Task</span>Manager
             </span>
           </Link>
           <h2 className="text-3xl font-bold text-gray-900">Welcome back</h2>
@@ -182,8 +182,8 @@ export default function LoginPage() {
               <p className="text-xs text-gray-500 mb-2">
                 Demo credentials for testing:
               </p>
-              <p className="text-xs text-gray-600">Email: demo@example.com</p>
-              <p className="text-xs text-gray-600">Password: demo123</p>
+              <p className="text-xs text-gray-600">Email: test@example.com</p>
+              <p className="text-xs text-gray-600">Password: test123</p>
             </CardContent>
           </Card>
         )}

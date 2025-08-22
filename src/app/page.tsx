@@ -2,6 +2,7 @@ import Link from "next/link";
 import { CheckCircle, Users, Zap, Shield } from "lucide-react";
 import { redirect } from "next/navigation";
 import { getCurrentUser } from "../lib/auth";
+import { Button } from "@/components/ui/button";
 
 export default async function HomePage() {
   const user = await getCurrentUser();
@@ -20,7 +21,7 @@ export default async function HomePage() {
             <div className="flex items-center">
               <CheckCircle className="h-8 w-8 text-blue-600" />
               <span className="ml-2 text-xl font-bold text-gray-900">
-                TaskManager
+                <span className="text-[#155DFC]">Task</span>Manager
               </span>
             </div>
 
@@ -29,13 +30,10 @@ export default async function HomePage() {
                 href="/auth/login"
                 className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
               >
-                Sign In
+                <Button>Sign In</Button>
               </Link>
-              <Link
-                href="/auth/register"
-                className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors font-medium"
-              >
-                Get Started
+              <Link href="/auth/register" className="">
+                <Button variant={"secondary"}>Get Started</Button>
               </Link>
             </div>
           </div>

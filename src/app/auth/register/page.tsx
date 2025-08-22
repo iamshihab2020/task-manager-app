@@ -137,7 +137,7 @@ export default function RegisterPage() {
           >
             <CheckCircle className="h-12 w-12 text-blue-600" />
             <span className="ml-2 text-2xl font-bold text-gray-900">
-              TaskManager
+              <span className="text-[#155DFC]">Task</span>Manager
             </span>
           </Link>
           <h2 className="text-3xl font-bold text-gray-900">
